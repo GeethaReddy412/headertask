@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    /* width: 1000px; */
+    /* border:2px solid; */
+    padding: 10px;
+    display:flex;
+    font-size:2rem;
+    justify-content: space-between;
+    background-color: rgb(127, 208, 255);
+    box-shadow: 20px 20px 20px rgb(50, 50, 41);
+    position: sticky;
+    
+} 
+/* .item1,.item2,.item3,.item4{
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+    font-size: 1.5rem;
+} */
+.item1{
+  flex-basis  : 1000px;
+}
+
